@@ -148,9 +148,11 @@ The user receives the JSON feedback and can review the detailed analysis and per
 
 
 ### Dependencies
+```plaintext
 express: Web framework for Node.js.
 body-parser: Middleware to parse incoming request bodies.
 mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js.
 fs: Node.js built-in module for file system operations.
 https: Node.js built-in module for creating HTTPS servers.
 Tesseract: Optical Character Recognition (OCR) for the personalised feedback feature
+```
