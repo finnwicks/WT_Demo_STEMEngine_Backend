@@ -132,7 +132,6 @@ The API returns a detailed response, including an explanation of Newton's Second
 JSON Feedback:
 
 ```json
-json:
 {
   "original_input": "F = ma, where F is force, m is mass, and a is acceleration.",
   "analysis": "This equation represents Newton's Second Law of Motion, which states that the force acting on an object is equal to its mass times its acceleration.",
