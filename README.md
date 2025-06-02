@@ -16,16 +16,19 @@ Clone the repository:
   cd <repository-name>
   ```
 ### Install dependencies:
+```plaintext
   npm install
-  
+  ```
 ### Set environment variables:
 Create a .env file in the root directory and add the following variables:
+```plaintext
   MONGODB_URI=your-mongodb-connection-string,
   JWT_SECRET=your-secret-key
-
+```
 ### Start the server:
+```plaintext
   npm start
-  
+  ```
 ## Directory Structure
 ```plaintext
 project/
