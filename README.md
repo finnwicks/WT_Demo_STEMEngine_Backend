@@ -11,9 +11,10 @@ MongoDB: Data storage using Mongoose for MongoDB object modelling.
 
 ## Installation
 Clone the repository:
+```plaintext
   git clone <repository-url>,
   cd <repository-name>
-  
+  ```
 ### Install dependencies:
   npm install
   
@@ -60,29 +61,34 @@ project/
 ### Routes:
 
 Authentication:
+```plaintext
 	POST /login: Log in a user.
 	POST /signup: Sign up a new user.
 	POST /logout: Log out a user.
 	POST /forgot-password: Handle password reset requests.
-
+```
 Profile Management:
+```plaintext
 	PUT /update-profile: Update user profile information.
 	GET /retrieve-learning-profile: Retrieve user learning profile.
-
+```
 Educational Content:
+```plaintext
 	GET /retrieve-menu: Retrieve menu options.
 	GET /subject-content: Retrieve subject content.
 	GET /retrieve-content: Retrieve Q&A pairs.
 	POST /level-complete: Track level completion.
-
+```
 Password Management:
+```plaintext
 	PUT /change-password: Change the user's password.
 	DELETE /delete-account: Delete the user's account.
-
+```
 Middleware
+```plaintext
 	bodyParser.json(): Middleware to parse JSON request bodies.
 	Debug Middleware: Logs requests to the /level-complete route.
-
+```
 Error Handling
 The server includes a global error-handling middleware that catches and logs errors, returning a 500 Internal Server Error response.
 
@@ -125,6 +131,7 @@ Generative API Response:
 The API returns a detailed response, including an explanation of Newton's Second Law, common mistakes, and tips for remembering the formula.
 JSON Feedback:
 
+```json
 json:
 {
   "original_input": "F = ma, where F is force, m is mass, and a is acceleration.",
@@ -135,7 +142,7 @@ json:
     "tips": ["Remember that force is a vector quantity", "Always check your units"]
   }
 }
-
+```
 User Receives Feedback:
 
 The user receives the JSON feedback and can review the detailed analysis and personalised suggestions.
