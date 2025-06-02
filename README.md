@@ -26,6 +26,7 @@ Create a .env file in the root directory and add the following variables:
   npm start
   
 ## Directory Structure
+```plaintext
 project/
   node_modules/
   routes/
@@ -53,6 +54,8 @@ project/
     package-lock.json
     .env
   server.js
+```
+
 
 ### Routes:
 
