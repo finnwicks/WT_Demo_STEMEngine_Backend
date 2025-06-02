@@ -86,25 +86,25 @@ The server includes a global error-handling middleware that catches and logs err
 SSL Certificates
 Ensure you have your SSL certificate and private key files (server.key and server.cert) in the root directory of your project. These are used to configure the HTTPS server.
 
-## Screenshot Analysis and Personalized Feedback
+## Screenshot Analysis and Personalised Feedback
 ### Overview
-This feature allows users to take a screenshot of their working area (e.g., a math or physics problem they are solving) and receive personalized feedback. The process involves several steps: capturing the screenshot, analyzing the symbols using Tesseract for Optical Character Recognition (OCR), and then passing the recognized text to a generative pre-trained transformer API for evaluation and feedback. The final feedback is formatted into JSON and sent back to the user.
+This feature allows users to take a screenshot of their working area (e.g., a math or physics problem they are solving) and receive personalised feedback. The process involves several steps: capturing the screenshot, analyzing the symbols using Tesseract for Optical Character Recognition (OCR), and then passing the recognised text to a generative pre-trained transformer API for evaluation and feedback. The final feedback is formatted into JSON and sent back to the user.
 
 Steps
 Capture Screenshot:
 
 The user takes a screenshot of their working area. This can be done using a browser extension or a desktop application that captures the screen and sends the image to the server.
-Analyze Symbols with Tesseract:
+Analyse Symbols with Tesseract:
 
-The server receives the screenshot and uses Tesseract, an open-source OCR engine, to analyze the image and extract text and symbols.
-Tesseract is configured to recognize mathematical and scientific symbols, ensuring accurate extraction of the content from the screenshot.
+The server receives the screenshot and uses Tesseract, an open-source OCR engine, to analyse the image and extract text and symbols.
+Tesseract is configured to recognise mathematical and scientific symbols, ensuring accurate extraction of the content from the screenshot.
 Pass to Generative Pre-trained Transformer API:
 
 The extracted text and symbols are then passed to a generative pre-trained transformer API, such as one provided by OpenAI.
-The API evaluates the content, provides a detailed analysis, and generates personalized feedback based on the input.
+The API evaluates the content, provides a detailed analysis, and generates personalised feedback based on the input.
 Format Feedback into JSON:
 
-The feedback received from the generative API is formatted into a JSON structure, including details such as the original input, the analysis, and the personalized feedback.
+The feedback received from the generative API is formatted into a JSON structure, including details such as the original input, the analysis, and the personalised feedback.
 Send Feedback to User:
 
 The JSON-formatted feedback is sent back to the user, who can then review the detailed analysis and personalised suggestions for improving their work.
@@ -135,7 +135,7 @@ json:
 
 User Receives Feedback:
 
-The user receives the JSON feedback and can review the detailed analysis and personalized suggestions.
+The user receives the JSON feedback and can review the detailed analysis and personalised suggestions.
 
 
 ### Dependencies
