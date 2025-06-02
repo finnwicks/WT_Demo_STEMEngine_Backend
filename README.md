@@ -1,2 +1,2 @@
-# WT_Demo_STEMEngine_Backend
-Backedn implemntation for Edtech project
+# Wicks Tech Demo: STEMEngine Backend
+Backend implemntation for Edtech project
